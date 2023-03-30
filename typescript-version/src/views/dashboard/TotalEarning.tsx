@@ -29,28 +29,28 @@ const data: DataType[] = [
   {
     progress: 75,
     imgHeight: 20,
-    title: 'Zipcar',
+    title: '打击黑产',
     color: 'primary',
     amount: '$24,895.65',
-    subtitle: 'Vuejs, React & HTML',
+    subtitle: '不可描述',
     imgSrc: '/images/cards/logo-zipcar.png'
   },
   {
     progress: 50,
     color: 'info',
     imgHeight: 27,
-    title: 'Bitbank',
+    title: '比特币',
     amount: '$8,650.20',
-    subtitle: 'Sketch, Figma & XD',
+    subtitle: '不可描述',
     imgSrc: '/images/cards/logo-bitbank.png'
   },
   {
     progress: 20,
     imgHeight: 20,
-    title: 'Aviato',
+    title: '普通业务',
     color: 'secondary',
     amount: '$1,245.80',
-    subtitle: 'HTML & Angular',
+    subtitle: '正常描述',
     imgSrc: '/images/cards/logo-aviato.png'
   }
 ]
@@ -59,7 +59,7 @@ const TotalEarning = () => {
   return (
     <Card>
       <CardHeader
-        title='Total Earning'
+        title='总收入'
         titleTypographyProps={{ sx: { lineHeight: '1.6 !important', letterSpacing: '0.15px !important' } }}
         action={
           <IconButton size='small' aria-label='settings' className='card-more-options' sx={{ color: 'text.secondary' }}>
@@ -81,7 +81,7 @@ const TotalEarning = () => {
         </Box>
 
         <Typography component='p' variant='caption' sx={{ mb: 10 }}>
-          Compared to $84,325 last year
+          相比去年的$84325
         </Typography>
 
         {data.map((item: DataType, index: number) => {

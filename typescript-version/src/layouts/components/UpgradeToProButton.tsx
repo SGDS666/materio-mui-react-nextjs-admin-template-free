@@ -37,13 +37,13 @@ const BuyNowButton = () => {
       sx={{ right: theme => theme.spacing(20), bottom: theme => theme.spacing(10), zIndex: 11, position: 'fixed' }}
     >
       <Button
-        component='a'
-        target='_blank'
+        component='button'
+
         variant='contained'
         onMouseEnter={handleOpen}
         onMouseLeave={handleClose}
         ref={(e: any) => setReferenceElement(e)}
-        href='https://themeselection.com/products/materio-mui-react-nextjs-admin-template/'
+
         sx={{
           backgroundColor: '#ff3e1d',
           boxShadow: '0 1px 20px 1px #ff3e1d',
@@ -53,7 +53,7 @@ const BuyNowButton = () => {
           }
         }}
       >
-        Upgrade To Pro
+        升级SVIP
       </Button>
       <Fade in={open} timeout={700}>
         <Box
@@ -74,31 +74,30 @@ const BuyNowButton = () => {
             </a>
             <CardContent>
               <Typography sx={{ mb: 4 }} variant='h6'>
-                Materio - React Admin Template
+                SVIP 就是随心所欲
               </Typography>
               <Typography sx={{ mb: 4 }} variant='body2'>
-                Materio Admin is the most developer friendly & highly customizable Admin Dashboard Template based on MUI
-                and NextJS.
+                我觉得你骨骼惊奇 快来开通一个SVIP 感受一下土豪的快乐吧
               </Typography>
               <Typography sx={{ mb: 4 }} variant='body2'>
-                Click on below buttons to explore PRO version.
+                点击下面的按钮 开始享受特权吧
               </Typography>
               <Button
-                component='a'
+                component='button'
                 sx={{ mr: 4 }}
-                target='_blank'
+
                 variant='contained'
-                href='https://demos.themeselection.com/materio-mui-react-nextjs-admin-template/landing/'
+
               >
-                Demo
+                感受一下
               </Button>
               <Button
-                component='a'
-                target='_blank'
+                component="button"
+
                 variant='outlined'
-                href='https://themeselection.com/products/materio-mui-react-nextjs-admin-template/'
+
               >
-                Download
+                深入感受
               </Button>
             </CardContent>
           </Paper>

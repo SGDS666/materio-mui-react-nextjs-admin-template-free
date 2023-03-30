@@ -119,12 +119,12 @@ const DashboardTable = () => {
         <Table sx={{ minWidth: 800 }} aria-label='table in dashboard'>
           <TableHead>
             <TableRow>
-              <TableCell>Name</TableCell>
-              <TableCell>Email</TableCell>
-              <TableCell>Date</TableCell>
-              <TableCell>Salary</TableCell>
-              <TableCell>Age</TableCell>
-              <TableCell>Status</TableCell>
+              <TableCell>名字</TableCell>
+              <TableCell>邮箱</TableCell>
+              <TableCell>日期</TableCell>
+              <TableCell>销售额</TableCell>
+              <TableCell>员工数</TableCell>
+              <TableCell>状态</TableCell>
             </TableRow>
           </TableHead>
           <TableBody>

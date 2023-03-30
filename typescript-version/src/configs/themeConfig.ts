@@ -17,8 +17,8 @@ type ThemeConfig = {
 
 const themeConfig: ThemeConfig = {
   // ** Layout Configs
-  templateName: 'Materio' /* App Name */,
-  mode: 'light' /* light | dark */,
+  templateName: '来发信' /* App Name */,
+  mode: 'dark' /* light | dark */,
   contentWidth: 'boxed' /* full | boxed */,
 
   // ** Routing Configs

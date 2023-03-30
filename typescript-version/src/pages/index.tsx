@@ -46,18 +46,18 @@ const Dashboard = () => {
                 icon={<Poll />}
                 color='success'
                 trendNumber='+42%'
-                title='Total Profit'
-                subtitle='Weekly Profit'
+                title='总利润'
+                subtitle='周利润'
               />
             </Grid>
             <Grid item xs={6}>
               <CardStatisticsVerticalComponent
                 stats='$78'
-                title='Refunds'
+                title='退款'
                 trend='negative'
                 color='secondary'
                 trendNumber='-15%'
-                subtitle='Past Month'
+                subtitle='近一个月'
                 icon={<CurrencyUsd />}
               />
             </Grid>
@@ -66,8 +66,8 @@ const Dashboard = () => {
                 stats='862'
                 trend='negative'
                 trendNumber='-18%'
-                title='New Project'
-                subtitle='Yearly Project'
+                title='新计划'
+                subtitle='年计划'
                 icon={<BriefcaseVariantOutline />}
               />
             </Grid>
@@ -77,8 +77,8 @@ const Dashboard = () => {
                 color='warning'
                 trend='negative'
                 trendNumber='-18%'
-                subtitle='Last Week'
-                title='Sales Queries'
+                subtitle='上周'
+                title='销售问题'
                 icon={<HelpCircleOutline />}
               />
             </Grid>

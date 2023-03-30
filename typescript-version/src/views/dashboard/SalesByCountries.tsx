@@ -86,7 +86,7 @@ const SalesByCountries = () => {
   return (
     <Card>
       <CardHeader
-        title='Sales by Countries'
+        title='销售国家'
         titleTypographyProps={{ sx: { lineHeight: '1.2 !important', letterSpacing: '0.31px !important' } }}
         action={
           <IconButton size='small' aria-label='settings' className='card-more-options' sx={{ color: 'text.secondary' }}>
@@ -154,7 +154,7 @@ const SalesByCountries = () => {
                     {item.sales}
                   </Typography>
                   <Typography variant='caption' sx={{ lineHeight: 1.5 }}>
-                    Sales
+                    销售额
                   </Typography>
                 </Box>
               </Box>

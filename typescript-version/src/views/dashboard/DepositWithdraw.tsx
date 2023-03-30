@@ -118,9 +118,9 @@ const DepositWithdraw = () => {
     <Card sx={{ display: 'flex', justifyContent: 'space-between', flexDirection: ['column', 'column', 'row'] }}>
       <Box sx={{ width: '100%' }}>
         <CardHeader
-          title='Deposit'
+          title='定金'
           sx={{ pt: 5.5, alignItems: 'center', '& .MuiCardHeader-action': { mt: 0.6 } }}
-          action={<Typography variant='caption'>View All</Typography>}
+          action={<Typography variant='caption'>查看全部</Typography>}
           titleTypographyProps={{
             variant: 'h6',
             sx: { lineHeight: '1.6 !important', letterSpacing: '0.15px !important' }
@@ -164,7 +164,7 @@ const DepositWithdraw = () => {
 
       <Box sx={{ width: '100%' }}>
         <CardHeader
-          title='Withdraw'
+          title='退款'
           sx={{ pt: 5.5, alignItems: 'center', '& .MuiCardHeader-action': { mt: 0.6 } }}
           action={<Typography variant='caption'>View All</Typography>}
           titleTypographyProps={{
